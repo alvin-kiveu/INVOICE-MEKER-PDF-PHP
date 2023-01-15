@@ -3,11 +3,11 @@ include 'include/configs.php';
 require_once('tcpdf/tcpdf.php');
 // create new PDF document
 $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+
 $pdf->SetAuthor(Company_Name);
 $pdf->setTitle(Company_Name);
-
 $pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
-$pdf->setHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, Company_Name, Company_Info);
+$pdf->setHeaderData(Company_Logo, PDF_HEADER_LOGO_WIDTH, Company_Name, Company_Info);
 $pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
 $pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
 $pdf->SetFooterMargin(PDF_MARGIN_FOOTER);

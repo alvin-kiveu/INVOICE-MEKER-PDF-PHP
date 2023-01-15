@@ -11,6 +11,6 @@ TCPDF LOGO
 
 2. Unzip the archive and upload the files to your server.
 
-3. Open the `config.php` file and edit the settings to match your needs.
+3. Open the `inclde/config.php` file and edit the settings to match your needs.
 
 4. Open the `invoice.php` file and edit the invoice details.
