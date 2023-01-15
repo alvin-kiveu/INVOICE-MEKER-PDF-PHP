@@ -1,4 +1,3 @@
 <?php
-include 'include/configs.php';
 
-echo CompanyName;
+echo "<script>window.location.href='invoice.php';</script>";

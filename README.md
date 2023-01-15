@@ -1,6 +1,9 @@
 INVOICE MEKER PDF PHP
 
-This is a simple PHP script to generate an invoice in PDF format. It uses the TCPDF library to generate the PDF file.
+This is a simple PHP script to generate an invoice in PDF format. It uses the TCPDF library to
+generate the PDF file.
+
+TCPDF LOGO
 
 ## Installation
 
